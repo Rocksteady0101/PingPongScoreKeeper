@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score Keeper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div id="app" class="container text-center">
+    <div id="image" class="container text-center">
+      <img class="rounded"
+        src="https://images.unsplash.com/photo-1624936188350-883a61a44116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="PingPong">
+    </div>
+
+    <div id="title" class="img-responsive center-block">
+      <h1>Ping Pong Score Keeper</h1>
+    </div>
+
+    <div class="text-center" id="h3">
+      <h3>Use the buttons below to keep score</h3>
+    </div>
+
+    <div class="container text-center">
+      <button id="playerOnePlus" type="button" class="btn btn-primary">+1 Player One</button>
+      <button id="playerTwoPlus" type="button" class="btn btn-success">+1 Player 2</button>
+      <button id="reset" type="button" class="btn btn-danger">Reset</button>
+    </div>
+
+    <div class="container text-center">
+      <section id="score1">0</section>
+      <section>to</section>
+      <section id="score2">o</section>
+    </div>
+    <div class="container">
+      <div class="row">
+        <label for="playto" class="col-6 text-end">Playing To</label>
+        <select id="playto" class="col-2" aria-label="Select">
+          <option selected>-- Select One --</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
